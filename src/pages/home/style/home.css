@@ -1,0 +1,26 @@
+.slick-prev, .slick-next {
+    z-index: 1; 
+    top: 50%; 
+    width: 20px; 
+    height: 20px; 
+    transform: translateY(-50%); 
+}
+
+.slick-prev {
+    left: 5px; 
+}
+
+.slick-next {
+    right: 5px; 
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 20px; 
+    background-color:none;
+}
+.blur-background {
+    filter: blur(1px);
+  }
+  .css-at4irl-MuiCardContent-root:last-child{
+    padding-bottom: 0 !important;
+  }
